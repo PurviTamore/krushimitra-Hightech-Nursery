@@ -1,0 +1,700 @@
+{
+  "plants": [
+    {
+      "id": "1",
+      "name": "Mango",
+      "category": "Fruit",
+      "image": "/images/mango tree.jpg",
+      "price": 150,
+      "description": "A classic tropical fruit known for its sweet taste and fragrance."
+    },
+    {
+      "id": "2",
+      "name": "Orange",
+      "category": "Fruit",
+      "image": "/images/orange treee.jpg",
+      "price": 130,
+      "description": "A popular citrus fruit, rich in Vitamin C and juicy flavor."
+    },
+    {
+      "id": "3",
+      "name": "Java Apple",
+      "category": "Fruit",
+      "image": "/images/java apple.jpg",
+      "price": 140,
+      "description": "A bell-shaped fruit with a crisp texture and a mildly sweet taste."
+    },
+    {
+      "id": "4",
+      "name": "Jackfruit",
+      "category": "Fruit",
+      "image": "/images/jackfruit.jpg",
+      "price": 250,
+      "description": "A large, spiky fruit with a unique sweet flavor when ripe."
+    },
+    {
+      "id": "5",
+      "name": "KG Guava",
+      "category": "Fruit",
+      "image": "/images/guava.jpg",
+      "price": 150,
+      "description": "A large variety of guava known for its sweet, aromatic pulp."
+    },
+    {
+      "id": "6",
+      "name": "Australian Lemon",
+      "category": "Fruit",
+      "image": "/images/Australian Lemon.jpg",
+      "price": 250,
+      "description": "A robust lemon variety, perfect for juices and culinary uses."
+    },
+    {
+      "id": "7",
+      "name": "Seedless Lemon",
+      "category": "Fruit",
+      "image": "/images/seedless lemon.png",
+      "price": 260,
+      "description": "A convenient, juicy lemon without the hassle of seeds."
+    },
+    {
+      "id": "8",
+      "name": "Red Jackfruit",
+      "category": "Fruit",
+      "image": "/images/Red Jackfruit.jpg",
+      "price": 230,
+      "description": "A rare variety of jackfruit with vibrant red flesh and a sweet flavor."
+    },
+    {
+      "id": "9",
+      "name": "Balaji Lemon",
+      "category": "Fruit",
+      "image": "/images/Balaji Lemon.jpg",
+      "price": 170,
+      "description": "A high-yield lemon variety popular for commercial farming."
+    },
+    {
+      "id": "10",
+      "name": "Red Guava",
+      "category": "Fruit",
+      "image": "/images/Red Guava.jpg",
+      "price": 140,
+      "description": "A sweet guava with pinkish-red flesh, rich in antioxidants."
+    },
+    {
+      "id": "11",
+      "name": "Rambutan Red",
+      "category": "Fruit",
+      "image": "/images/Rambutan Red.jpg",
+      "price": 300,
+      "description": "An exotic fruit with a hairy red shell and sweet, translucent flesh."
+    },
+    {
+      "id": "12",
+      "name": "Rambutan Yellow",
+      "category": "Fruit",
+      "image": "/images/Rambutan yellow.jpg",
+      "price": 300,
+      "description": "A sweeter, less common variety of rambutan with a yellow shell."
+    },
+    {
+      "id": "13",
+      "name": "Red Java Apple",
+      "category": "Fruit",
+      "image": "/images/Red Java Apple.jpg",
+      "price": 180,
+      "description": "A beautiful, crisp Java apple with a striking red color."
+    },
+    {
+      "id": "14",
+      "name": "Green Java Apple",
+      "category": "Fruit",
+      "image": "/images/Green Java Apple.jpg",
+      "price": 170,
+      "description": "A variety of Java apple with a refreshing green skin and crisp bite."
+    },
+    {
+      "id": "15",
+      "name": "Chikoo",
+      "category": "Fruit",
+      "image": "/images/Chikoo.jpg",
+      "price": 140,
+      "description": "A sweet, grainy fruit with a brown peel, also known as sapota."
+    },
+    {
+      "id": "16",
+      "name": "Rose",
+      "category": "Flower",
+      "image": "/images/Rose.jpg",
+      "price": 200,
+      "description": "A classic symbol of love, available in various vibrant colors."
+    },
+    {
+      "id": "17",
+      "name": "Lily",
+      "category": "Flower",
+      "image": "/images/Lily.jpg",
+      "price": 190,
+      "description": "An elegant, fragrant flower often associated with purity and beauty."
+    },
+    {
+      "id": "18",
+      "name": "Sunflower",
+      "category": "Flower",
+      "image": "/images/Sunflower.jpg",
+      "price": 250,
+      "description": "A large, bright flower known for turning its head towards the sun."
+    },
+    {
+      "id": "19",
+      "name": "Marigold",
+      "category": "Flower",
+      "image": "/images/Marigold.jpg",
+      "price": 200,
+      "description": "A cheerful, hardy flower with bright orange and yellow petals."
+    },
+    {
+      "id": "20",
+      "name": "Hibiscus",
+      "category": "Flower",
+      "image": "/images/Hibiscus.jpg",
+      "price": 160,
+      "description": "A large, trumpet-shaped flower found in tropical climates."
+    },
+    {
+      "id": "21",
+      "name": "Jasmine",
+      "category": "Flower",
+      "image": "/images/Jasmine.jpg",
+      "price": 160,
+      "description": "A highly fragrant flower, often used in perfumes and teas."
+    },
+    {
+      "id": "22",
+      "name": "Lavender",
+      "category": "Flower",
+      "image": "/images/Lavender.jpg",
+      "price": 300,
+      "description": "Known for its calming scent and beautiful purple spikes."
+    },
+    {
+      "id": "23",
+      "name": "Orchid",
+      "category": "Flower",
+      "image": "/images/Orchid.jpg",
+      "price": 300,
+      "description": "An exotic and delicate flower with a unique and intricate shape."
+    },
+    {
+      "id": "24",
+      "name": "Tulip",
+      "category": "Flower",
+      "image": "/images/Tulip.jpg",
+      "price": 250,
+      "description": "A cup-shaped flower that is a popular sign of spring."
+    },
+    {
+      "id": "25",
+      "name": "Daisy",
+      "category": "Flower",
+      "image": "/images/Daisy.jpg",
+      "price": 180,
+      "description": "A simple yet beautiful flower with a yellow center and white petals."
+    },
+    {
+      "id": "26",
+      "name": "Tomato Plant",
+      "category": "Vegetable",
+      "image": "/images/Tomato.jpg",
+      "price": 70,
+      "description": "Produces vibrant, edible berries."
+    },
+    {
+      "id": "27",
+      "name": "Bell Pepper",
+      "category": "Vegetable",
+      "image": "/images/Bell Pepper.jpg",
+      "price": 80,
+      "description": "Grows crisp and sweet peppers in a variety of colors."
+    },
+    {
+      "id": "28",
+      "name": "Cucumber",
+      "category": "Vegetable",
+      "image": "/images/Cucumber.jpg",
+      "price": 150,
+      "description": "Vining plant that produces refreshing, crunchy cucumbers."
+    },
+    {
+      "id": "29",
+      "name": "Carrot",
+      "category": "Vegetable",
+      "image": "/images/Carrot.jpg",
+      "price": 70,
+      "description": "Root vegetable known for its bright orange color and sweet taste."
+    },
+    {
+      "id": "30",
+      "name": "Lettuce",
+      "category": "Vegetable",
+      "image": "/images/Lettuce.jpg",
+      "price": 100,
+      "description": "Fast-growing leafy green, perfect for salads and sandwiches."
+    },
+    {
+      "id": "31",
+      "name": "Spinach",
+      "category": "Vegetable",
+      "image": "/images/Spinach.jpg",
+      "price": 120,
+      "description": "Nutrient-rich leafy green that thrives in cooler weather."
+    },
+    {
+      "id": "32",
+      "name": "Zucchini",
+      "category": "Vegetable",
+      "image": "/images/Zucchini.jpg",
+      "price": 160,
+      "description": "Prolific summer squash, producing abundant, versatile fruits."
+    },
+    {
+      "id": "33",
+      "name": "Eggplant",
+      "category": "Vegetable",
+      "image": "/images/Eggplant.jpg",
+      "price": 150,
+      "description": "Produces glossy, purple fruits ideal for grilling and roasting."
+    },
+    {
+      "id": "34",
+      "name": "Broccoli",
+      "category": "Vegetable",
+      "image": "/images/Broccoli.jpg",
+      "price": 200,
+      "description": "Cool-season crop grown for its edible green flower heads."
+    },
+    {
+      "id": "35",
+      "name": "Cauliflower",
+      "category": "Vegetable",
+      "image": "/images/Cauliflower.jpg",
+      "price": 200,
+      "description": "Produces dense, white heads called curds, rich in nutrients."
+    },
+    {
+      "id": "36",
+      "name": "Green Bean",
+      "category": "Vegetable",
+      "image": "/images/Green Bean.jpg",
+      "price": 140,
+      "description": "Easy-to-grow plant producing tender, edible pods."
+    },
+    {
+      "id": "37",
+      "name": "Radish",
+      "category": "Vegetable",
+      "image": "/images/Radish.jpg",
+      "price": 140,
+      "description": "Fast-maturing root vegetable with a peppery crunch."
+    },
+    {
+      "id": "38",
+      "name": "Onion",
+      "category": "Vegetable",
+      "image": "/images/Onion.jpg",
+      "price": 140,
+      "description": "Pungent bulb vegetable, a fundamental ingredient in many cuisines."
+    },
+    {
+      "id": "39",
+      "name": "Kale",
+      "category": "Vegetable",
+      "image": "/images/Kale.jpg",
+      "price": 200,
+      "description": "Hardy, leafy green packed with vitamins, great for salads and chips."
+    },
+    {
+      "id": "40",
+      "name": "Potato",
+      "category": "Vegetable",
+      "image": "/images/Potato.jpg",
+      "price": 140,
+      "description": "Grows starchy tubers underground, a versatile kitchen staple."
+    },
+   {
+      "id": "44",
+      "name": "Tulsi (Holy Basil)",
+      "category": "Medicinal",
+      "image": "/images/Tulsi.jpg",
+      "price": 200,
+      "description": "Sacred plant with anti-inflammatory and immune-boosting properties."
+    },
+    {
+      "id": "45",
+      "name": "Neem",
+      "category": "Medicinal",
+      "image": "/images/Neem.jpg",
+      "price": 140,
+      "description": "Powerful antiseptic and blood purifier, used for skin diseases."
+    },
+    {
+      "id": "46",
+      "name": "Aloe Vera",
+      "category": "Medicinal",
+      "image": "/images/Aloe Vera.jpg",
+      "price": 200,
+      "description": "Succulent plant with healing gel for burns and skin conditions."
+    },
+    {
+      "id": "47",
+      "name": "Turmeric",
+      "category": "Medicinal",
+      "image": "/images/Turmeric.jpg",
+      "price": 160,
+      "description": "Golden spice with strong anti-inflammatory and antioxidant effects."
+    },
+    {
+      "id": "48",
+      "name": "Ginger",
+      "category": "Medicinal",
+      "image": "/images/Ginger.jpg",
+      "price": 180,
+      "description": "Rhizome excellent for digestion, nausea, and anti-inflammatory purposes."
+    },
+    {
+      "id": "49",
+      "name": "Ashwagandha",
+      "category": "Medicinal",
+      "image": "/images/Ashwagandha.jpg",
+      "price": 170,
+      "description": "Adaptogenic herb that reduces stress and improves vitality."
+    },
+    {
+      "id": "50",
+      "name": "Brahmi",
+      "category": "Medicinal",
+      "image": "/images/Brahmi.jpg",
+      "price": 180,
+      "description": "Brain tonic that enhances memory and cognitive functions."
+    },
+    {
+      "id": "51",
+      "name": "Giloy",
+      "category": "Medicinal",
+      "image": "/images/Giloy.jpg",
+      "price": 180,
+      "description": "Immunity booster and fever reducer, known as Amrit in Ayurveda."
+    },
+    {
+      "id": "52",
+      "name": "Mint",
+      "category": "Medicinal",
+      "image": "/images/Mint.jpg",
+      "price": 190,
+      "description": "Cooling herb for digestion, headaches, and respiratory issues."
+    },
+    {
+      "id": "53",
+      "name": "Lemongrass",
+      "category": "Medicinal",
+      "image": "/images/Lemongrass.jpg",
+      "price": 200,
+      "description": "Aromatic grass with antimicrobial and anti-inflammatory properties."
+    },
+    {
+      "id": "54",
+      "name": "Sage",
+      "category": "Medicinal",
+      "image": "/images/Sage.jpg",
+      "price": 190,
+      "description": "Herb for sore throat, digestion, and cognitive enhancement."
+    },
+    {
+      "id": "55",
+      "name": "Chamomile",
+      "category": "Medicinal",
+      "image": "/images/Chamomile.jpg",
+      "price": 150,
+      "description": "Calming herb for anxiety, insomnia, and digestive issues."
+    },
+    {
+      "id": "56",
+      "name": "Lavender",
+      "category": "Medicinal",
+      "image": "/images/Lavender1.jpg",
+      "price": 200,
+      "description": "Soothing herb for anxiety, sleep disorders, and skin healing."
+    },
+    {
+      "id": "57",
+      "name": "Calendula",
+      "category": "Medicinal",
+      "image": "/images/Calendula.jpg",
+      "price": 299,
+      "description": "Skin-healing flower for wounds, burns, and inflammation."
+    },
+    {
+      "id": "58",
+      "name": "Echinacea",
+      "category": "Medicinal",
+      "image": "/images/Echinacea.jpg",
+      "price": 200,
+      "description": "Immune-stimulating herb for colds and respiratory infections."
+    },
+    {
+      "id": "59",
+      "name": "Snake Plant",
+      "category": "Indoor",
+      "image": "/images/Snake.jpg",
+      "price": 270,
+      "description": "Low-maintenance air purifier that thrives in low light conditions."
+    },
+    {
+      "id": "60",
+      "name": "Money Plant",
+      "category": "Indoor",
+      "image": "/images/Money.jpg",
+      "price": 250,
+      "description": "Fast-growing vine that brings good luck and purifies air."
+    },
+    {
+      "id": "61",
+      "name": "Spider Plant",
+      "category": "Indoor",
+      "image": "/images/Spider.jpg",
+      "price": 300,
+      "description": "Easy-to-grow plant that removes toxins and produces baby spiderettes."
+    },
+    {
+      "id": "62",
+      "name": "Peace Lily",
+      "category": "Indoor",
+      "image": "/images/Peace Lily.jpg",
+      "price": 190,
+      "description": "Beautiful flowering plant that cleans air and thrives in shade."
+    },
+    {
+      "id": "63",
+      "name": "Rubber Plant",
+      "category": "Indoor",
+      "image": "/images/Rubber.jpg",
+      "price": 200,
+      "description": "Striking plant with glossy leaves that purifies indoor air."
+    },
+    {
+      "id": "64",
+      "name": "ZZ Plant",
+      "category": "Indoor",
+      "image": "/images/ZZ Plant.jpg",
+      "price": 250,
+      "description": "Extremely hardy plant that survives low light and neglect."
+    },
+    {
+      "id": "65",
+      "name": "Pothos",
+      "category": "Indoor",
+      "image": "/images/Pothos.jpg",
+      "price": 260,
+      "description": "Versatile trailing plant perfect for shelves and hanging baskets."
+    },
+    {
+      "id": "66",
+      "name": "Chinese Evergreen",
+      "category": "Indoor",
+      "image": "/images/Chinese Evergreen.jpg",
+      "price": 250,
+      "description": "Colorful foliage plant that tolerates low light and dry air."
+    },
+    {
+      "id": "67",
+      "name": "Dracaena",
+      "category": "Indoor",
+      "image": "/images/Dracaena.jpg",
+      "price": 200,
+      "description": "Architectural plant with striking patterns that removes pollutants."
+    },
+    {
+      "id": "68",
+      "name": "Philodendron",
+      "category": "Indoor",
+      "image": "/images/Philodendron.jpg",
+      "price": 230,
+      "description": "Classic houseplant with heart-shaped leaves, easy to care for."
+    },
+    {
+      "id": "69",
+      "name": "Boston Fern",
+      "category": "Indoor",
+      "image": "/images/Boston Fern.jpg",
+      "price": 200,
+      "description": "Lush fern that humidifies air and adds tropical vibe to rooms."
+    },
+    {
+      "id": "70",
+      "name": "Jade Plant",
+      "category": "Indoor",
+      "image": "/images/Jade Plant.jpg",
+      "price": 300,
+      "description": "Succulent that symbolizes good luck and requires minimal watering."
+    },
+    {
+      "id": "71",
+      "name": "Areca Palm",
+      "category": "Indoor",
+      "image": "/images/Areca Palm.jpg",
+      "price": 300,
+      "description": "Elegant palm that humidifies air and removes toxins effectively."
+    },
+    {
+      "id": "72",
+      "name": "English Ivy",
+      "category": "Indoor",
+      "image": "/images/English Ivy.jpg",
+      "price": 350,
+      "description": "Trailing plant that reduces mold in the air and looks beautiful."
+    },
+    {
+      "id": "73",
+      "name": "Aloe Vera",
+      "category": "Indoor",
+      "image": "/images/Aloe Vera.jpg",
+      "price": 340,
+      "description": "Medicinal succulent that purifies air and soothes skin burns."
+    },
+    {
+      "id": "74",
+      "name": "Maple Tree",
+      "category": "Outdoor",
+      "image": "/images/Maple Tree.jpg",
+      "price": 400,
+      "description": "Deciduous tree famous for its stunning fall foliage and shade provision."
+    },
+    {
+      "id": "75",
+      "name": "Bamboo",
+      "category": "Outdoor",
+      "image": "/images/Bamboo.jpg",
+      "price": 450,
+      "description": "Fast-growing grass that creates natural privacy screens and adds Asian aesthetic."
+    },
+    {
+      "id": "76",
+      "name": "Boxwood",
+      "category": "Outdoor",
+      "image": "/images/Boxwood.jpg",
+      "price": 450,
+      "description": "Evergreen shrub perfect for hedges, topiary, and formal garden designs."
+    },
+    {
+      "id": "77",
+      "name": "Olive Tree",
+      "category": "Outdoor",
+      "image": "/images/Olive Tree.jpg",
+      "price": 400,
+      "description": "Evergreen tree with silvery foliage, symbolizing peace and Mediterranean elegance."
+    },
+    {
+      "id": "78",
+      "name": "Palm Tree",
+      "category": "Outdoor",
+      "image": "/images/Palm Tree.jpg",
+      "price": 450,
+      "description": "Tropical tree that creates a resort-like atmosphere with its graceful fronds."
+    },
+    {
+      "id": "79",
+      "name": "Weeping Willow",
+      "category": "Outdoor",
+      "image": "/images/Weeping Willow.jpg",
+      "price": 500,
+      "description": "Graceful tree with drooping branches, ideal for waterside planting."
+    },
+    {
+      "id": "80",
+      "name": "Japanese Maple",
+      "category": "Outdoor",
+      "image": "/images/Japanese Maple.jpg",
+      "price": 350,
+      "description": "Ornamental tree with delicate, colorful foliage perfect for Japanese gardens."
+    },
+    {
+      "id": "81",
+      "name": "Cypress Tree",
+      "category": "Outdoor",
+      "image": "/images/Cypress Tree.jpg",
+      "price": 450,
+      "description": "Tall, slender evergreen tree perfect for windbreaks and architectural interest."
+    },
+    {
+      "id": "82",
+      "name": "Fern",
+      "category": "Outdoor",
+      "image": "/images/Fern.jpg",
+      "price": 450,
+      "description": "Lush, shade-loving plant that adds tropical texture to garden beds."
+    },
+    {
+      "id": "83",
+      "name": "Ornamental Grass",
+      "category": "Outdoor",
+      "image": "/images/Ornamental Grass.jpg",
+      "price": 400,
+      "description": "Adds movement and texture to landscapes with graceful, waving blades."
+    },
+    {
+      "id": "84",
+      "name": "Ivy",
+      "category": "Outdoor",
+      "image": "/images/Ivy.jpg",
+      "price": 300,
+      "description": "Versatile climbing plant perfect for covering walls, fences, and ground cover."
+    },
+    {
+      "id": "85",
+      "name": "Succulent Garden",
+      "category": "Outdoor",
+      "image": "/images/Succulent Garden.jpg",
+      "price": 400,
+      "description": "Drought-tolerant collection of succulents perfect for rock gardens and xeriscaping."
+    },
+    {
+      "id": "86",
+      "name": "Boxwood Hedge",
+      "category": "Outdoor",
+      "image": "/images/Boxwood Hedge.jpg",
+      "price": 350,
+      "description": "Formal hedge plant that creates clean lines and structured garden spaces."
+    },
+    {
+      "id": "87",
+      "name": "Oak Tree",
+      "category": "Outdoor",
+      "image": "/images/Oak Tree.jpg",
+      "price": 500,
+      "description": "Majestic, long-lived tree providing excellent shade and wildlife habitat."
+    },
+    {
+      "id": "88",
+      "name": "Pine Tree",
+      "category": "Outdoor",
+      "image": "/images/Pine.jpg",
+      "price": 450,
+      "description": "Evergreen conifer that provides year-round color and privacy screening."
+    }
+  ],
+  "enquiries": [
+    {
+      "id": "3edb",
+      "name": "Atharva Shasane",
+      "phone": "08169432841",
+      "email": "atharvashasane@gmail.com",
+      "message": "Hello Guys"
+    },
+    {
+      "id": "9e8d",
+      "name": "janila",
+      "phone": "9876543221",
+      "email": "janila@gmail.com",
+      "message": "My fav Mam is Megha mam"
+    }
+  ]
+}

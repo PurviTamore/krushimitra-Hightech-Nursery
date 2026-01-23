@@ -1,0 +1,470 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: "Georgia", serif;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* Homepage Slideshow */
+.slideshow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: slideshow 30s infinite;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out;
+}
+
+ @keyframes slideshow {
+  0%,
+  20% {
+    /* Updated to use path relative to the CSS file (src/App.css -> src/images/img1.jpg) */
+    background-image: url("./images/img1.jpg");
+  }
+  20.01%,
+  40% {
+    /* Updated */
+    background-image: url("./images/img2.jpg");
+  }
+  40.01%,
+  60% {
+    /* Updated */
+    background-image: url("./images/img3.jpg");
+  }
+  60.01%,
+  80% {
+    /* Updated */
+    background-image: url("./images/img4.jpg");
+  }
+  80.01%,
+  100% {
+    /* Updated */
+    background-image: url("./images/img5.jpg");
+  }
+}
+
+.slideshow::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.explore-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(135deg, #68f181, #e3dac9);
+  transition: background 1s ease-in-out;
+}
+
+/* Navbar */
+.navbar {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  right: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.navbar .logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar ul li button.nav-link {
+  background: none;
+  border: none;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 1rem;
+}
+
+.navbar ul li button.nav-link:hover {
+  color: gold;
+}
+
+/* Homepage Content */
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 10;
+}
+
+.content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.btn {
+  padding: 12px 28px;
+  background-color: rgba(36, 121, 62, 0.9);
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #000;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background-color: rgb(36, 121, 62);
+}
+
+.back-btn {
+  margin-top: 5px; /* moved lower */
+}
+
+/* Carousel */
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.carousel-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1200px;
+  width: 55%;
+  height: 180px; /* reduced from 400px */
+  position: relative;
+}
+
+/* Collection Cards */
+.card {
+  position: absolute;
+  width: 150px; /* reduced width */
+  height: 200px; /* reduced height */
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
+  text-align: center;
+  transform: scale(0.75);
+  opacity: 0.5;
+  transition: all 0.6s ease;
+  color: #fff;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+  transition: transform 0.4s ease;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+/* Card Title - Plant Name */
+.card h3 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  background: rgba(34, 49, 34, 0.6);
+  color: #f0ffe0;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+/* Hover effect on title */
+.card:hover h3 {
+  transform: scale(1.05);
+  background: rgba(36, 121, 62, 0.8);
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+/* Card Description */
+.card p {
+  font-size: 0.85rem;
+  color: #e0ffe0;
+  padding: 4px 8px;
+  border-radius: 8px;
+  background: rgba(34, 49, 34, 0.4);
+  opacity: 0.9;
+  transition: all 0.3s ease;
+}
+
+.card:hover p {
+  opacity: 1;
+  background: rgba(36, 121, 62, 0.6);
+  color: #ffffff;
+}
+
+/* Active / Prev / Next states */
+.card.active {
+  transform: translateZ(120px) scale(0.8);
+  opacity: 1;
+  z-index: 5;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.card.prev {
+  transform: translateX(-150px) rotateY(15deg) scale(0.6);
+  opacity: 0.8;
+  z-index: 3;
+  background: rgba(36, 121, 62, 0.25);
+}
+
+.card.next {
+  transform: translateX(150px) rotateY(-15deg) scale(0.6);
+  opacity: 0.8;
+  z-index: 3;
+  background: rgba(36, 121, 62, 0.25);
+}
+
+/* Navigation Buttons */
+.nav-controls {
+  margin-top: 6px; /* moved lower */
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+}
+
+.nav-btn {
+  background: rgba(36, 121, 62, 0.9);
+  border: none;
+  border-radius: 50%;
+  padding: 14px 20px; /* smaller buttons */
+  font-size: 1.4rem; /* smaller buttons */
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-btn:hover {
+  transform: scale(1.1);
+  background: rgb(36, 121, 62);
+}
+
+.contact-hero {
+  position: relative;
+  background: url("./images/aboli.jpg");
+  height: 100vh;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.contact-hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.contact-hero-content {
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+}
+
+.contact-hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.contact-hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.hero-image {
+  margin-top: 20px;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Get in Touch + Form */
+.contact-section {
+  background: linear-gradient(to bottom, #081308, #123d12);
+  padding: 60px 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-info h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #f0f1f0;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  resize: none;
+  min-height: 120px;
+}
+
+.contact-form button {
+  padding: 14px;
+  background: #1a3c1a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #145214;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-section {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.admin-page {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background: rgba(36, 121, 62, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  color: #1a3c1a;
+  font-family: "Georgia", serif;
+}
+
+.admin-page h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #246f3e;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.admin-form input,
+.admin-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #246f3e;
+  font-size: 1rem;
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.admin-form input:focus,
+.admin-form textarea:focus {
+  outline: none;
+  border-color: #3a5a40;
+  box-shadow: 0 0 5px rgba(36, 121, 62, 0.5);
+}
+
+.admin-form textarea {
+  min-height: 100px;
+  resize: none;
+}
+
+.admin-form button {
+  padding: 14px;
+  background: #246f3e;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.admin-form button:hover {
+  background: #3a5a40;
+  transform: scale(1.03);
+}
