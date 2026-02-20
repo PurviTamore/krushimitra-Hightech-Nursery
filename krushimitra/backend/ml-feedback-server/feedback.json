@@ -1,0 +1,40 @@
+[
+  {
+    "timestamp": "2026-02-19T13:59:52.086Z",
+    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQw...",
+    "prediction": "Blight",
+    "userFeedback": "auto-generated-log"
+  },
+  {
+    "timestamp": "2026-02-19T14:02:40.676Z",
+    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQw...",
+    "prediction": "Powdery Mildew",
+    "userFeedback": "auto-log"
+  },
+  {
+    "timestamp": "2026-02-19T14:12:16.092Z",
+    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAYGBgYHBgcICAcKCwoLCg8ODAwODxYQERAREBYiFRkVFRkVIh4kHhweJB42KiYmKjY+NDI0PkxERExfWl98fKcBBgYGBgc...",
+    "prediction": "Powdery Mildew",
+    "userFeedback": "auto-log"
+  },
+  {
+    "timestamp": "2026-02-19T14:16:00.743Z",
+    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMWFhUXFxgXGBcYFxUYFRcVGBcXFxgeFxgYHSggGB0lGxgVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0...",
+    "prediction": "Leaf Spot",
+    "userFeedback": "auto-log"
+  },
+  {
+    "timestamp": "2026-02-19T18:40:17.010Z",
+    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQk...",
+    "prediction": "Powdery Mildew",
+    "userFeedback": "auto-log"
+  },
+  {
+    "id": 1771563441144,
+    "timestamp": "2026-02-20T04:57:21.144Z",
+    "imagePreview": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD...",
+    "prediction": "Leaf Spot",
+    "confidence": "92%",
+    "userFeedback": "auto-log"
+  }
+]

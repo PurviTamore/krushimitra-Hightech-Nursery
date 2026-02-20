@@ -4,52 +4,50 @@ import fs from "fs";
 import path from "path";
 
 const app = express();
-const PORT = process.env.PORT || 3003;  // Using a new port to avoid conflicts
+const PORT = 3003; 
 
 app.use(cors());
-app.use(express.json({ limit: "10mb" })); // Increase limit to accept base64 images
+app.use(express.json({ limit: "20mb" })); // Increased for high-res images
 
-// Store feedback in a JSON file for persistence
 const feedbackFilePath = path.join(process.cwd(), "feedback.json");
 
-// Helper function to read feedback
 const readFeedback = () => {
   if (fs.existsSync(feedbackFilePath)) {
-    const fileContent = fs.readFileSync(feedbackFilePath);
-    return JSON.parse(fileContent);
+    return JSON.parse(fs.readFileSync(feedbackFilePath, 'utf8'));
   }
   return [];
 };
 
-// Helper function to write feedback
 const writeFeedback = (data) => {
   fs.writeFileSync(feedbackFilePath, JSON.stringify(data, null, 2));
 };
 
 app.post("/feedback", (req, res) => {
-  const { image, prediction, correctClass, userFeedback } = req.body;
+  const { image, prediction, confidence, userFeedback } = req.body;
 
   const feedbackData = readFeedback();
 
-  feedbackData.push({
+  // Create a clean object for DMBA processing
+  const newEntry = {
+    id: Date.now(),
     timestamp: new Date().toISOString(),
-    image: image.substring(0, 150) + "...", // Store only a snippet of the base64 string
+    imagePreview: image ? image.substring(0, 50) + "..." : "no-image", 
     prediction,
-    correctClass,
-    userFeedback,
-  });
+    confidence,
+    userFeedback
+  };
 
+  feedbackData.push(newEntry);
   writeFeedback(feedbackData);
 
-  console.log("✅ Feedback received. Total entries:", feedbackData.length);
-  res.json({ success: true, totalFeedback: feedbackData.length });
+  console.log(`✅ Feedback logged: ${prediction} (${confidence})`);
+  res.json({ success: true, totalEntries: feedbackData.length });
 });
 
 app.get("/feedback", (req, res) => {
-  const feedbackData = readFeedback();
-  res.json(feedbackData);
+  res.json(readFeedback());
 });
 
 app.listen(PORT, () => {
-  console.log(`✅ ML Feedback server running on http://localhost:${PORT}`);
+  console.log(`🚀 ML Logic Server active on http://localhost:${PORT}`);
 });

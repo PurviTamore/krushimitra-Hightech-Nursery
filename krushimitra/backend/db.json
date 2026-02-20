@@ -6,6 +6,7 @@
       "category": "Fruit",
       "image": "/images/mango tree.jpg",
       "price": 150,
+      "stockCount": 30,
       "description": "A classic tropical fruit known for its sweet taste and fragrance."
     },
     {
@@ -14,6 +15,7 @@
       "category": "Fruit",
       "image": "/images/orange treee.jpg",
       "price": 130,
+      "stockCount": 35,
       "description": "A popular citrus fruit, rich in Vitamin C and juicy flavor."
     },
     {
@@ -22,6 +24,7 @@
       "category": "Fruit",
       "image": "/images/java apple.jpg",
       "price": 140,
+      "stockCount": 35,
       "description": "A bell-shaped fruit with a crisp texture and a mildly sweet taste."
     },
     {
@@ -30,6 +33,7 @@
       "category": "Fruit",
       "image": "/images/jackfruit.jpg",
       "price": 250,
+      "stockCount": 20,
       "description": "A large, spiky fruit with a unique sweet flavor when ripe."
     },
     {
@@ -38,6 +42,7 @@
       "category": "Fruit",
       "image": "/images/guava.jpg",
       "price": 150,
+      "stockCount": 25,
       "description": "A large variety of guava known for its sweet, aromatic pulp."
     },
     {
@@ -46,6 +51,7 @@
       "category": "Fruit",
       "image": "/images/Australian Lemon.jpg",
       "price": 250,
+      "stockCount": 15,
       "description": "A robust lemon variety, perfect for juices and culinary uses."
     },
     {
@@ -54,6 +60,7 @@
       "category": "Fruit",
       "image": "/images/seedless lemon.png",
       "price": 260,
+      "stockCount": 18,
       "description": "A convenient, juicy lemon without the hassle of seeds."
     },
     {
@@ -62,6 +69,7 @@
       "category": "Fruit",
       "image": "/images/Red Jackfruit.jpg",
       "price": 230,
+      "stockCount": 20,
       "description": "A rare variety of jackfruit with vibrant red flesh and a sweet flavor."
     },
     {
@@ -70,6 +78,7 @@
       "category": "Fruit",
       "image": "/images/Balaji Lemon.jpg",
       "price": 170,
+      "stockCount": 15,
       "description": "A high-yield lemon variety popular for commercial farming."
     },
     {
@@ -78,6 +87,7 @@
       "category": "Fruit",
       "image": "/images/Red Guava.jpg",
       "price": 140,
+      "stockCount": 25,
       "description": "A sweet guava with pinkish-red flesh, rich in antioxidants."
     },
     {
@@ -86,6 +96,7 @@
       "category": "Fruit",
       "image": "/images/Rambutan Red.jpg",
       "price": 300,
+      "stockCount": 10,
       "description": "An exotic fruit with a hairy red shell and sweet, translucent flesh."
     },
     {
@@ -94,6 +105,7 @@
       "category": "Fruit",
       "image": "/images/Rambutan yellow.jpg",
       "price": 300,
+      "stockCount": 10,
       "description": "A sweeter, less common variety of rambutan with a yellow shell."
     },
     {
@@ -102,6 +114,7 @@
       "category": "Fruit",
       "image": "/images/Red Java Apple.jpg",
       "price": 180,
+      "stockCount": 35,
       "description": "A beautiful, crisp Java apple with a striking red color."
     },
     {
@@ -110,6 +123,7 @@
       "category": "Fruit",
       "image": "/images/Green Java Apple.jpg",
       "price": 170,
+      "stockCount": 40,
       "description": "A variety of Java apple with a refreshing green skin and crisp bite."
     },
     {
@@ -118,6 +132,7 @@
       "category": "Fruit",
       "image": "/images/Chikoo.jpg",
       "price": 140,
+      "stockCount": 40,
       "description": "A sweet, grainy fruit with a brown peel, also known as sapota."
     },
     {
@@ -126,6 +141,7 @@
       "category": "Flower",
       "image": "/images/Rose.jpg",
       "price": 200,
+      "stockCount": 60,
       "description": "A classic symbol of love, available in various vibrant colors."
     },
     {
@@ -134,6 +150,7 @@
       "category": "Flower",
       "image": "/images/Lily.jpg",
       "price": 190,
+      "stockCount": 45,
       "description": "An elegant, fragrant flower often associated with purity and beauty."
     },
     {
@@ -142,6 +159,7 @@
       "category": "Flower",
       "image": "/images/Sunflower.jpg",
       "price": 250,
+      "stockCount": 50,
       "description": "A large, bright flower known for turning its head towards the sun."
     },
     {
@@ -150,6 +168,7 @@
       "category": "Flower",
       "image": "/images/Marigold.jpg",
       "price": 200,
+      "stockCount": 60,
       "description": "A cheerful, hardy flower with bright orange and yellow petals."
     },
     {
@@ -158,6 +177,7 @@
       "category": "Flower",
       "image": "/images/Hibiscus.jpg",
       "price": 160,
+      "stockCount": 40,
       "description": "A large, trumpet-shaped flower found in tropical climates."
     },
     {
@@ -166,6 +186,7 @@
       "category": "Flower",
       "image": "/images/Jasmine.jpg",
       "price": 160,
+      "stockCount": 55,
       "description": "A highly fragrant flower, often used in perfumes and teas."
     },
     {
@@ -174,6 +195,7 @@
       "category": "Flower",
       "image": "/images/Lavender.jpg",
       "price": 300,
+      "stockCount": 30,
       "description": "Known for its calming scent and beautiful purple spikes."
     },
     {
@@ -182,6 +204,7 @@
       "category": "Flower",
       "image": "/images/Orchid.jpg",
       "price": 300,
+      "stockCount": 25,
       "description": "An exotic and delicate flower with a unique and intricate shape."
     },
     {
@@ -190,6 +213,7 @@
       "category": "Flower",
       "image": "/images/Tulip.jpg",
       "price": 250,
+      "stockCount": 30,
       "description": "A cup-shaped flower that is a popular sign of spring."
     },
     {
@@ -198,6 +222,7 @@
       "category": "Flower",
       "image": "/images/Daisy.jpg",
       "price": 180,
+      "stockCount": 25,
       "description": "A simple yet beautiful flower with a yellow center and white petals."
     },
     {
@@ -206,6 +231,7 @@
       "category": "Vegetable",
       "image": "/images/Tomato.jpg",
       "price": 70,
+      "stockCount": 30,
       "description": "Produces vibrant, edible berries."
     },
     {
@@ -214,6 +240,7 @@
       "category": "Vegetable",
       "image": "/images/Bell Pepper.jpg",
       "price": 80,
+      "stockCount": 30,
       "description": "Grows crisp and sweet peppers in a variety of colors."
     },
     {
@@ -222,6 +249,7 @@
       "category": "Vegetable",
       "image": "/images/Cucumber.jpg",
       "price": 150,
+      "stockCount": 40,
       "description": "Vining plant that produces refreshing, crunchy cucumbers."
     },
     {
@@ -230,6 +258,7 @@
       "category": "Vegetable",
       "image": "/images/Carrot.jpg",
       "price": 70,
+      "stockCount": 30,
       "description": "Root vegetable known for its bright orange color and sweet taste."
     },
     {
@@ -238,6 +267,7 @@
       "category": "Vegetable",
       "image": "/images/Lettuce.jpg",
       "price": 100,
+      "stockCount": 35,
       "description": "Fast-growing leafy green, perfect for salads and sandwiches."
     },
     {
@@ -246,6 +276,7 @@
       "category": "Vegetable",
       "image": "/images/Spinach.jpg",
       "price": 120,
+      "stockCount": 40,
       "description": "Nutrient-rich leafy green that thrives in cooler weather."
     },
     {
@@ -254,6 +285,7 @@
       "category": "Vegetable",
       "image": "/images/Zucchini.jpg",
       "price": 160,
+      "stockCount": 30,
       "description": "Prolific summer squash, producing abundant, versatile fruits."
     },
     {
@@ -262,6 +294,7 @@
       "category": "Vegetable",
       "image": "/images/Eggplant.jpg",
       "price": 150,
+      "stockCount": 25,
       "description": "Produces glossy, purple fruits ideal for grilling and roasting."
     },
     {
@@ -270,6 +303,7 @@
       "category": "Vegetable",
       "image": "/images/Broccoli.jpg",
       "price": 200,
+      "stockCount": 30,
       "description": "Cool-season crop grown for its edible green flower heads."
     },
     {
@@ -278,6 +312,7 @@
       "category": "Vegetable",
       "image": "/images/Cauliflower.jpg",
       "price": 200,
+      "stockCount": 35,
       "description": "Produces dense, white heads called curds, rich in nutrients."
     },
     {
@@ -286,6 +321,7 @@
       "category": "Vegetable",
       "image": "/images/Green Bean.jpg",
       "price": 140,
+      "stockCount": 40,
       "description": "Easy-to-grow plant producing tender, edible pods."
     },
     {
@@ -294,6 +330,7 @@
       "category": "Vegetable",
       "image": "/images/Radish.jpg",
       "price": 140,
+      "stockCount": 30,
       "description": "Fast-maturing root vegetable with a peppery crunch."
     },
     {
@@ -302,6 +339,7 @@
       "category": "Vegetable",
       "image": "/images/Onion.jpg",
       "price": 140,
+      "stockCount": 40,
       "description": "Pungent bulb vegetable, a fundamental ingredient in many cuisines."
     },
     {
@@ -310,6 +348,7 @@
       "category": "Vegetable",
       "image": "/images/Kale.jpg",
       "price": 200,
+      "stockCount": 30,
       "description": "Hardy, leafy green packed with vitamins, great for salads and chips."
     },
     {
@@ -318,14 +357,16 @@
       "category": "Vegetable",
       "image": "/images/Potato.jpg",
       "price": 140,
+      "stockCount": 50,
       "description": "Grows starchy tubers underground, a versatile kitchen staple."
     },
-   {
+    {
       "id": "44",
       "name": "Tulsi (Holy Basil)",
       "category": "Medicinal",
       "image": "/images/Tulsi.jpg",
       "price": 200,
+      "stockCount": 35,
       "description": "Sacred plant with anti-inflammatory and immune-boosting properties."
     },
     {
@@ -334,6 +375,7 @@
       "category": "Medicinal",
       "image": "/images/Neem.jpg",
       "price": 140,
+      "stockCount": 40,
       "description": "Powerful antiseptic and blood purifier, used for skin diseases."
     },
     {
@@ -342,6 +384,7 @@
       "category": "Medicinal",
       "image": "/images/Aloe Vera.jpg",
       "price": 200,
+      "stockCount": 25,
       "description": "Succulent plant with healing gel for burns and skin conditions."
     },
     {
@@ -350,6 +393,7 @@
       "category": "Medicinal",
       "image": "/images/Turmeric.jpg",
       "price": 160,
+      "stockCount": 30,
       "description": "Golden spice with strong anti-inflammatory and antioxidant effects."
     },
     {
@@ -358,6 +402,7 @@
       "category": "Medicinal",
       "image": "/images/Ginger.jpg",
       "price": 180,
+      "stockCount": 35,
       "description": "Rhizome excellent for digestion, nausea, and anti-inflammatory purposes."
     },
     {
@@ -366,6 +411,7 @@
       "category": "Medicinal",
       "image": "/images/Ashwagandha.jpg",
       "price": 170,
+      "stockCount": 40,
       "description": "Adaptogenic herb that reduces stress and improves vitality."
     },
     {
@@ -374,6 +420,7 @@
       "category": "Medicinal",
       "image": "/images/Brahmi.jpg",
       "price": 180,
+      "stockCount": 50,
       "description": "Brain tonic that enhances memory and cognitive functions."
     },
     {
@@ -382,6 +429,7 @@
       "category": "Medicinal",
       "image": "/images/Giloy.jpg",
       "price": 180,
+      "stockCount": 30,
       "description": "Immunity booster and fever reducer, known as Amrit in Ayurveda."
     },
     {
@@ -390,6 +438,7 @@
       "category": "Medicinal",
       "image": "/images/Mint.jpg",
       "price": 190,
+      "stockCount": 25,
       "description": "Cooling herb for digestion, headaches, and respiratory issues."
     },
     {
@@ -398,6 +447,7 @@
       "category": "Medicinal",
       "image": "/images/Lemongrass.jpg",
       "price": 200,
+      "stockCount": 30,
       "description": "Aromatic grass with antimicrobial and anti-inflammatory properties."
     },
     {
@@ -406,6 +456,7 @@
       "category": "Medicinal",
       "image": "/images/Sage.jpg",
       "price": 190,
+      "stockCount": 30,
       "description": "Herb for sore throat, digestion, and cognitive enhancement."
     },
     {
@@ -414,6 +465,7 @@
       "category": "Medicinal",
       "image": "/images/Chamomile.jpg",
       "price": 150,
+      "stockCount": 40,
       "description": "Calming herb for anxiety, insomnia, and digestive issues."
     },
     {
@@ -422,6 +474,7 @@
       "category": "Medicinal",
       "image": "/images/Lavender1.jpg",
       "price": 200,
+      "stockCount": 30,
       "description": "Soothing herb for anxiety, sleep disorders, and skin healing."
     },
     {
@@ -430,6 +483,7 @@
       "category": "Medicinal",
       "image": "/images/Calendula.jpg",
       "price": 299,
+      "stockCount": 20,
       "description": "Skin-healing flower for wounds, burns, and inflammation."
     },
     {
@@ -438,6 +492,7 @@
       "category": "Medicinal",
       "image": "/images/Echinacea.jpg",
       "price": 200,
+      "stockCount": 30,
       "description": "Immune-stimulating herb for colds and respiratory infections."
     },
     {
@@ -446,6 +501,7 @@
       "category": "Indoor",
       "image": "/images/Snake.jpg",
       "price": 270,
+      "stockCount": 40,
       "description": "Low-maintenance air purifier that thrives in low light conditions."
     },
     {
@@ -454,6 +510,7 @@
       "category": "Indoor",
       "image": "/images/Money.jpg",
       "price": 250,
+      "stockCount": 30,
       "description": "Fast-growing vine that brings good luck and purifies air."
     },
     {
@@ -462,6 +519,7 @@
       "category": "Indoor",
       "image": "/images/Spider.jpg",
       "price": 300,
+      "stockCount": 35,
       "description": "Easy-to-grow plant that removes toxins and produces baby spiderettes."
     },
     {
@@ -470,6 +528,7 @@
       "category": "Indoor",
       "image": "/images/Peace Lily.jpg",
       "price": 190,
+      "stockCount": 25,
       "description": "Beautiful flowering plant that cleans air and thrives in shade."
     },
     {
@@ -478,6 +537,7 @@
       "category": "Indoor",
       "image": "/images/Rubber.jpg",
       "price": 200,
+      "stockCount": 30,
       "description": "Striking plant with glossy leaves that purifies indoor air."
     },
     {
@@ -486,6 +546,7 @@
       "category": "Indoor",
       "image": "/images/ZZ Plant.jpg",
       "price": 250,
+      "stockCount": 30,
       "description": "Extremely hardy plant that survives low light and neglect."
     },
     {
@@ -494,6 +555,7 @@
       "category": "Indoor",
       "image": "/images/Pothos.jpg",
       "price": 260,
+      "stockCount": 40,
       "description": "Versatile trailing plant perfect for shelves and hanging baskets."
     },
     {
@@ -502,6 +564,7 @@
       "category": "Indoor",
       "image": "/images/Chinese Evergreen.jpg",
       "price": 250,
+      "stockCount": 30,
       "description": "Colorful foliage plant that tolerates low light and dry air."
     },
     {
@@ -510,6 +573,7 @@
       "category": "Indoor",
       "image": "/images/Dracaena.jpg",
       "price": 200,
+      "stockCount": 30,
       "description": "Architectural plant with striking patterns that removes pollutants."
     },
     {
@@ -518,6 +582,7 @@
       "category": "Indoor",
       "image": "/images/Philodendron.jpg",
       "price": 230,
+      "stockCount": 30,
       "description": "Classic houseplant with heart-shaped leaves, easy to care for."
     },
     {
@@ -526,6 +591,7 @@
       "category": "Indoor",
       "image": "/images/Boston Fern.jpg",
       "price": 200,
+      "stockCount": 25,
       "description": "Lush fern that humidifies air and adds tropical vibe to rooms."
     },
     {
@@ -534,6 +600,7 @@
       "category": "Indoor",
       "image": "/images/Jade Plant.jpg",
       "price": 300,
+      "stockCount": 30,
       "description": "Succulent that symbolizes good luck and requires minimal watering."
     },
     {
@@ -542,6 +609,7 @@
       "category": "Indoor",
       "image": "/images/Areca Palm.jpg",
       "price": 300,
+      "stockCount": 30,
       "description": "Elegant palm that humidifies air and removes toxins effectively."
     },
     {
@@ -550,6 +618,7 @@
       "category": "Indoor",
       "image": "/images/English Ivy.jpg",
       "price": 350,
+      "stockCount": 30,
       "description": "Trailing plant that reduces mold in the air and looks beautiful."
     },
     {
@@ -558,6 +627,7 @@
       "category": "Indoor",
       "image": "/images/Aloe Vera.jpg",
       "price": 340,
+      "stockCount": 30,
       "description": "Medicinal succulent that purifies air and soothes skin burns."
     },
     {
@@ -566,6 +636,7 @@
       "category": "Outdoor",
       "image": "/images/Maple Tree.jpg",
       "price": 400,
+      "stockCount": 20,
       "description": "Deciduous tree famous for its stunning fall foliage and shade provision."
     },
     {
@@ -574,6 +645,7 @@
       "category": "Outdoor",
       "image": "/images/Bamboo.jpg",
       "price": 450,
+      "stockCount": 30,
       "description": "Fast-growing grass that creates natural privacy screens and adds Asian aesthetic."
     },
     {
@@ -582,6 +654,7 @@
       "category": "Outdoor",
       "image": "/images/Boxwood.jpg",
       "price": 450,
+      "stockCount": 30,
       "description": "Evergreen shrub perfect for hedges, topiary, and formal garden designs."
     },
     {
@@ -590,6 +663,7 @@
       "category": "Outdoor",
       "image": "/images/Olive Tree.jpg",
       "price": 400,
+      "stockCount": 20,
       "description": "Evergreen tree with silvery foliage, symbolizing peace and Mediterranean elegance."
     },
     {
@@ -598,6 +672,7 @@
       "category": "Outdoor",
       "image": "/images/Palm Tree.jpg",
       "price": 450,
+      "stockCount": 25,
       "description": "Tropical tree that creates a resort-like atmosphere with its graceful fronds."
     },
     {
@@ -606,6 +681,7 @@
       "category": "Outdoor",
       "image": "/images/Weeping Willow.jpg",
       "price": 500,
+      "stockCount": 15,
       "description": "Graceful tree with drooping branches, ideal for waterside planting."
     },
     {
@@ -614,6 +690,7 @@
       "category": "Outdoor",
       "image": "/images/Japanese Maple.jpg",
       "price": 350,
+      "stockCount": 20,
       "description": "Ornamental tree with delicate, colorful foliage perfect for Japanese gardens."
     },
     {
@@ -622,6 +699,7 @@
       "category": "Outdoor",
       "image": "/images/Cypress Tree.jpg",
       "price": 450,
+      "stockCount": 25,
       "description": "Tall, slender evergreen tree perfect for windbreaks and architectural interest."
     },
     {
@@ -630,6 +708,7 @@
       "category": "Outdoor",
       "image": "/images/Fern.jpg",
       "price": 450,
+      "stockCount": 30,
       "description": "Lush, shade-loving plant that adds tropical texture to garden beds."
     },
     {
@@ -638,6 +717,7 @@
       "category": "Outdoor",
       "image": "/images/Ornamental Grass.jpg",
       "price": 400,
+      "stockCount": 30,
       "description": "Adds movement and texture to landscapes with graceful, waving blades."
     },
     {
@@ -646,6 +726,7 @@
       "category": "Outdoor",
       "image": "/images/Ivy.jpg",
       "price": 300,
+      "stockCount": 40,
       "description": "Versatile climbing plant perfect for covering walls, fences, and ground cover."
     },
     {
@@ -654,6 +735,7 @@
       "category": "Outdoor",
       "image": "/images/Succulent Garden.jpg",
       "price": 400,
+      "stockCount": 30,
       "description": "Drought-tolerant collection of succulents perfect for rock gardens and xeriscaping."
     },
     {
@@ -662,6 +744,7 @@
       "category": "Outdoor",
       "image": "/images/Boxwood Hedge.jpg",
       "price": 350,
+      "stockCount": 30,
       "description": "Formal hedge plant that creates clean lines and structured garden spaces."
     },
     {
@@ -670,6 +753,7 @@
       "category": "Outdoor",
       "image": "/images/Oak Tree.jpg",
       "price": 500,
+      "stockCount": 20,
       "description": "Majestic, long-lived tree providing excellent shade and wildlife habitat."
     },
     {
@@ -678,6 +762,7 @@
       "category": "Outdoor",
       "image": "/images/Pine.jpg",
       "price": 450,
+      "stockCount": 25,
       "description": "Evergreen conifer that provides year-round color and privacy screening."
     }
   ],
@@ -695,6 +780,82 @@
       "phone": "9876543221",
       "email": "janila@gmail.com",
       "message": "My fav Mam is Megha mam"
+    },
+    {
+      "id": 1771482818928,
+      "name": "jenny",
+      "phone": "09049230753",
+      "email": "12abc@gmail.com",
+      "message": "hiii",
+      "date": "19/2/2026, 12:03:38 pm"
+    },
+    {
+      "id": 1771483513622,
+      "name": "jenny",
+      "phone": "9604768793",
+      "email": "12abc@gmail.com",
+      "message": "hiiii",
+      "date": "19/2/2026, 12:15:13 pm"
+    },
+    {
+      "id": 1771483682542,
+      "name": "jenny",
+      "phone": "09049230753",
+      "email": "12abc@gmail.com",
+      "message": "hiii",
+      "date": "19/2/2026, 12:18:02 pm"
+    },
+    {
+      "id": 1771484363864,
+      "name": "jenny",
+      "phone": "09049230753",
+      "email": "12abc@gmail.com",
+      "message": "hiiii",
+      "date": "19/2/2026, 12:29:23 pm"
+    },
+    {
+      "id": 1771484819226,
+      "name": "Purvi",
+      "phone": "9604768793",
+      "email": "12abc@gmail.com",
+      "message": "Hellloooo",
+      "date": "19/2/2026, 12:36:59 pm"
+    },
+    {
+      "id": 1771484983940,
+      "name": "Purvi",
+      "phone": "9604768793",
+      "email": "12abc@gmail.com",
+      "message": "Hellooo",
+      "date": "19/2/2026, 12:39:43 pm"
+    },
+    {
+      "id": 1771493759362,
+      "name": "Purvi",
+      "phone": "9604768793",
+      "message": "hiii",
+      "date": "19/2/2026, 3:05:59 pm"
+    },
+    {
+      "id": 1771499365030,
+      "name": "Purvi",
+      "phone": "9604768793",
+      "message": "Hii",
+      "date": "19/2/2026, 4:39:25 pm"
+    },
+    {
+      "id": 1771499921936,
+      "name": "Purvi",
+      "phone": "9604768793",
+      "message": "Done",
+      "date": "19/2/2026, 4:48:41 pm"
+    },
+    {
+      "id": 1771526460906,
+      "name": "Vedija",
+      "phone": "09049230753",
+      "message": "Mango Plants",
+      "date": "20/2/2026, 12:11:00 am"
     }
   ]
 }
