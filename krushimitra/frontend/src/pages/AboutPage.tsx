@@ -6,7 +6,6 @@ interface AboutSection {
   icon: string;
   text: string;
 }
-
 /* ---------- Component ---------- */
 const AboutPage: React.FC = () => {
   const aboutSections: AboutSection[] = [
