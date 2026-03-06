@@ -36,5 +36,29 @@
     "prediction": "Leaf Spot",
     "confidence": "92%",
     "userFeedback": "auto-log"
+  },
+  {
+    "id": 1771697581520,
+    "timestamp": "2026-02-21T18:13:01.520Z",
+    "imagePreview": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD...",
+    "prediction": "Leaf Spot",
+    "confidence": "92%",
+    "userFeedback": "auto-log"
+  },
+  {
+    "id": 1771697601720,
+    "timestamp": "2026-02-21T18:13:21.720Z",
+    "imagePreview": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD...",
+    "prediction": "Leaf Spot",
+    "confidence": "92%",
+    "userFeedback": "auto-log"
+  },
+  {
+    "id": 1771697890486,
+    "timestamp": "2026-02-21T18:18:10.486Z",
+    "imagePreview": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD...",
+    "prediction": "Powdery Mildew",
+    "confidence": "88%",
+    "userFeedback": "auto-log"
   }
 ]
