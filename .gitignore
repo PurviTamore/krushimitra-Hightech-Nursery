@@ -1,0 +1,6 @@
+﻿.vscode/
+krushimitra/backend/ml-feedback-server/dataset/
+krushimitra/backend/ml-feedback-server/plant_model.h5
+__pycache__/
+*.pyc
+.env
